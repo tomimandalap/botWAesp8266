@@ -5,7 +5,7 @@
 DHT dht(2, DHT11);
 float t, h;
 
-ThingESP8266 thing("duino", "botnodemcu", "botnodemcu1234");
+ThingESP8266 thing("username", "nameproject", "xxxxxxx");
 
 int LED = LED_BUILTIN;
 
@@ -16,9 +16,8 @@ void setup()
   dht.begin();
 
   pinMode(LED, OUTPUT);
-  digitalWrite(LED, 1);
 
-  thing.SetWiFi("WiFi", "usbasp88");
+  thing.SetWiFi("nama_WiFi", "pass_WiFi");
   thing.initDevice();
 }
 
@@ -61,7 +60,5 @@ String HandleResponse(String query)
 
 void loop()
 {
-
   thing.Handle();
-
 }
