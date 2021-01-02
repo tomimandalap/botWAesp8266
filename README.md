@@ -12,7 +12,7 @@ Berikut alat dan bahan yang digunakan:
 
 
 ## Pinout NodeMCU
-
+![NodeMCU-ESP8266-Pinout](https://user-images.githubusercontent.com/43200304/103464022-5ea67380-4d63-11eb-90a8-cc98ef7d24e6.jpg)
 
 ## Tutorial
 
@@ -21,7 +21,7 @@ Silahkan ikuti step by step seperti dalam video [ini]
 1. Link [thingESP]
 2. Link [twilio]
 
-Pastikan terlebih dahulu telah menyelesaikan regestrasi akun di masing-masing web ya.
+Pastikan terlebih dahulu telah menyelesaikan regestrasi akun dimasing-masing web ya.
 Semoga bermanfaat Terima Kasih.
 
 [twilio]: https://www.twilio.com/login
